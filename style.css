@@ -1,0 +1,159 @@
+* {
+              padding: 0;
+              margin: 0;
+}
+html {
+              scroll-behavior: smooth;
+}
+body {
+              background-color: rgb(2, 2, 39);
+              color: white;
+              font-family: 'Bree Serif', serif;
+              /* font-family: 'Tilt Prism', cursive; */
+              font-size: 28px;
+}
+
+#navbar {
+              display: flex;
+              align-items: center;
+              position: sticky;
+              top: 0px;
+              justify-content: space-around;
+              height: 65px;
+              /* background-color: rgb(18, 18, 62); */
+              background-color: rgb(95, 95, 184);
+}
+
+#navbar::before {
+              content: "";
+              background-color: rgb(95, 95, 184);
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              height: 100%;
+              width: 100%;
+              z-index: -1;
+              opacity: 0.7;
+}
+
+nav ul {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+}
+
+nav ul li {
+              list-style: none;
+              margin: 0px 23px;
+              font-size: 1.8rem;
+              font-family: 'Tilt Prism', cursive;
+              
+}
+
+nav ul li a {
+              text-decoration: none;
+              color: white;
+
+}
+
+nav ul li a:hover {
+
+              color: rgb(134, 134, 239);
+              color: whitesmoke;
+              font-size: 2rem;
+
+             /* color: #9c97f1 ; */
+
+}
+
+main hr {
+              border: 0;
+              background: #9c97f1;
+              height: 1.2px;
+              margin: 40px 84px;
+}
+
+.left {
+              display: flex;
+              font-size: 1.9rem;
+              font-family: 'Tilt Prism', cursive;
+}
+
+ .left img{
+              opacity:unset;
+              height:62px; 
+              width:55px;
+  }
+
+#first_section {
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              margin: 120px 0;
+}
+
+#first_section>div {
+              /* font-size: 1.5rem; */
+              width: 30%;
+}
+
+.leftsection {
+              /* margin: 70px 0; */
+              font-size: 30px;
+              font-family: 'Bree Serif', serif;
+}
+
+/* .skills_section {
+              font-size: 25px;
+              font-family: 'Bree Serif', serif;
+} */
+
+.rightsection img {
+              width: 65%;
+              margin: -26px 80px;
+}
+
+.purple {
+              color: rgb(162, 66, 251);
+}
+
+#element {
+              color: rgb(162, 66, 251);
+}
+
+#second_section {
+              max-width: 80vw;
+              margin: auto;
+}
+
+.about_me h1 {
+              color: rgb(162, 66, 251);
+              font-family: 'Bree Serif', serif;
+}
+
+#third_section {
+              max-width: 80vw;
+              margin: auto;
+}
+
+#third_section h1 {
+
+              align-items: center;
+              color: rgb(162, 66, 251);
+              font-family: 'Bree Serif', serif;
+}
+
+#fourth_section {
+              max-width: 80vw;
+              margin: auto;
+}
+
+#fourth_section h1 {
+              color: rgb(162, 66, 251);
+              font-family: 'Bree Serif', serif;
+}
+
+.skills h3 {
+              color: rgb(162, 66, 251);
+              font-family: 'Bree Serif', serif;
+}
